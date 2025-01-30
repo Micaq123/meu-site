@@ -1,0 +1,57 @@
+body {
+    background-color: hotpink;
+    color: black;
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Define a fonte do corpo */
+    line-height: 1.8; /* Melhora a legibilidade */
+    margin: 20px; /* Adiciona margem ao corpo */
+}
+
+strong {
+    color: white;
+}
+
+img {
+    width: 300px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    padding: 10px 10px 10px 10px;
+    border-radius: 10ch; /* Isso fará com que o elemento tenha uma forma circular*/
+
+}
+
+h1 {
+    font-size: 28px; /* Tamanho do título */
+    color: #000000; /* Cor do título */
+}
+
+p {
+    font-size: 18px; /* Tamanho do parágrafo */
+    color: #000000; /* Cor do parágrafo */
+}
+
+a {
+    color: black; /* Cor dos links */
+    margin-right: 15px; /* Espaçamento entre os links */
+    padding: 10px 10px 10px 10px;
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.button {
+    display: inline-block; /* Faz com que o link se comporte como um bloco */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #000000; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Arredonda os cantos */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+
+.button:hover {
+    background-color: #e90090cb; /* Cor de fundo ao passar o mouse */
+}
